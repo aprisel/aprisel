@@ -1,0 +1,52 @@
+# MA Crossover Bot
+
+Aplikasi bot trading pribadi yang menggunakan strategi **Moving Average Crossover** untuk melakukan perdagangan otomatis aset kripto di **Alpaca Paper Trading**. Bot ini menggunakan data harga dari Yahoo Finance dan strategi berdasarkan persilangan moving average jangka pendek dan jangka panjang.
+
+## Fitur
+
+- Otomatisasi perdagangan berdasarkan sinyal crossover MA
+- Terhubung dengan Alpaca Paper Trading
+- Mengambil data historis dari Yahoo Finance
+- Logging aktivitas beli dan jual
+- Dapat dijalankan secara periodik
+
+## Instalasi
+
+1. Clone repositori ini:
+
+```bash
+git clone https://github.com/aprisel/ma-crossover-bot.git
+cd ma-crossover-bot
+```
+
+2. Install dependensi:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Buat file `.env` dan masukkan kredensial Alpaca:
+
+```
+APCA_API_KEY_ID=your_api_key
+APCA_API_SECRET_KEY=your_secret_key
+APCA_API_BASE_URL=https://paper-api.alpaca.markets
+```
+
+4. Jalankan bot:
+
+```bash
+python bot.py
+```
+
+## Halaman Kebijakan
+
+Baca [Terms & Privacy Policy](https://aprisel.github.io/ma-crossover-bot/terms-and-privacy.html)
+
+## Kontribusi
+
+Pull request dan isu terbuka sangat diterima!
+
+## Lisensi
+
+MIT License.
